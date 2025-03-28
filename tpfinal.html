@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="video-box">
+        <video autoplay muted loop id="background-video">
+            <source src="/images/video.mp4" type="video/mp4">
+            Votre navigateur ne prend pas en charge la balise vidéo.
+        </video>
+        <header>
+            <h1 class="titre">Emmanuel Makosso</h1>
+            <h2 class="sous-titre">Développeur Web</h2>
+        </header>
+    </div>
+    
+    <nav>
+        <ul>
+            <li><a href="https://github.com/K-emmanuel" target="_blank" class="github-button">
+                <img src="/images/github.png" alt="GitHub" class="github-logo">
+            </a></li>
+            <li><button onclick="location.href='#projects'" class="rounded-button">Voir mes projets</button></li>
+        </ul>
+    </nav>
+
+    
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Passionné de développement web, je suis un créateur de solutions digitales qui transforme des concepts en expériences interactives captivantes. Mon parcours est guidé par la curiosité technique et un désir constant d'innovation.</p>
+        <p>Avec une solide maîtrise des technologies web modernes, je combine design élégant et fonctionnalité robuste pour créer des sites web qui racontent des histoires et engagent les utilisateurs. Chaque projet est pour moi une opportunité de repousser les limites de la créativité numérique.</p>
+    </section>
+
+    
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <div class="grid-projects">
+            <div class="project">
+                <img src="/images/renard.png" alt="R.E.N.A.R.D" class="project-image">
+                <h3>R.E.N.A.R.D</h3>
+                <p>Il s'agissait d'un travail en groupe où nous avons effectué une refonte d'un site interactif en utilisant HTML, CSS et JavaScript. Le site inclut une navigation dynamique et des animations fluides.</p>
+                <a href="https://traxxouu.github.io/ChallengeWebS1/index.html" target="_blank" class="project-link">Voir le projet en ligne</a>
+            </div>
+            <div class="project">
+                <h3>Projet 2</h3>
+                <p>À venir - Un nouveau projet passionnant en développement</p>
+            </div>
+            <div class="project">
+                <h3>Projet 3</h3>
+                <p>Bientôt disponible - Restez à l'écoute pour de nouvelles créations innovantes</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Emmanuel Makosso</p>
+    </footer>
+</body>
+</html>

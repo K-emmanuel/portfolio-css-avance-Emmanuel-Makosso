@@ -1,0 +1,31 @@
+section {
+    padding: $spacing-xlarge 10%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+#about {
+    max-width: 800px;
+    text-align: center;
+}
+#projects .grid-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: $spacing-large;
+    margin-top: $spacing-large;
+}
+.project {
+    background: lighten($bg-color, 10%);
+    padding: $spacing-large;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
